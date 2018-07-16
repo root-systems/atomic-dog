@@ -1,0 +1,29 @@
+{
+  "name": "atomic-dog",
+  "version": "0.1.0",
+  "description": "plugin for dogstack to assist with atomic design principles ",
+  "main": "index.js",
+  "bin": {
+    "atomic": "cli.js"
+  },
+  "scripts": {
+    "demo": "start-storybook -p 9001 -c ./example/.storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/root-systems/atomic-dog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/root-systems/atomic-dog/issues"
+  },
+  "homepage": "https://github.com/root-systems/atomic-dog#readme",
+  "dependencies": {
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3",
+    "bulk-require": "^1.0.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
