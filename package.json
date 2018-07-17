@@ -4,8 +4,9 @@
   "description": "plugin for dogstack to assist with atomic design principles ",
   "main": "index.js",
   "bin": {
-    "storybook": "cli.js",
-    "codeceptjs": "cli.js"
+    "atomic": "cli.js",
+    "codeceptjs": "./node_modules/.bin/codeceptjs",
+    "storybook": "./node_modules/.bin/storybook"
   },
   "scripts": {
     "demo": "start-storybook -p 9001 -c ./example/.storybook",
