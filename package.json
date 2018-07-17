@@ -6,7 +6,7 @@
   "bin": {
     "atomic": "cli.js",
     "codeceptjs": "./node_modules/.bin/codeceptjs",
-    "storybook": "./node_modules/.bin/storybook"
+    "storybook": "./node_modules/.bin/start-storybook"
   },
   "scripts": {
     "demo": "start-storybook -p 9001 -c ./example/.storybook",
